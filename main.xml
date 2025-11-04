@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:text="Welcome to MyNGO"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:text="About Us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/volunteerBtn"
+        android:text="Become a Volunteer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
